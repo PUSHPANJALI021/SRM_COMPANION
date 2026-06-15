@@ -1,79 +1,131 @@
-SRM Companion 
-A comprehensive web-based student management system for SRM University students to track attendance, manage study materials, view timetables, and stay organized throughout the semester
+# SRM Companion
 
-Overview
-SRM Companion is a student portal web application designed to help students manage their academic life efficiently. The application provides a centralized dashboard for tracking attendance, accessing study materials, viewing weekly timetables, and monitoring academic performance.
+> Your academic life, organized — attendance tracking, study materials, timetables, and more in one place.
 
-Attendance Alert System:
+---
 
-Real-time warnings for courses below 75%
-Current percentage display
-Required classes calculation
-Visual progress bar indicators
+## What It Does
 
-Recent Updates:
+SRM Companion is a student portal built for SRM University students who want to spend less time hunting for information and more time studying. It pulls together the things you check daily — attendance, materials, announcements, timetables — into a single, fast interface.
 
-Announcement feed
-Important notifications
-"View All" option for complete history
+---
 
-Study Materials
-Material Management:
+## Core Features
 
-Browse notes, PYQs, assignments, reference books, and lab manuals
-Search by title, subject, or keyword
-Filter by subject (CSE, Data Structures, OS, etc.)
-Filter by material type
-Star rating system (1-5 stars)
-Download tracking with count display
-File size display (MB/KB)
+### Attendance Tracking
+Never get caught off-guard by low attendance again.
 
-Upload Functionality:
+- Live percentage display per course
+- Automatic warnings when attendance drops below **75%**
+- Calculates exactly how many classes you need to attend to recover
+- Visual progress bars for a quick read at a glance
 
-Add new materials via "Add New Material" button
-Form fields:
+### Study Materials
+A shared repository for everything your batch needs.
 
-Title (required)
-Description (required)
-Subject dropdown (required)
-Type dropdown (Notes/PYQ/Assignment/Reference Book/Lab Manual)
-File upload (PDF/DOC/DOCX, max 10MB)
-Optional tags
+| Type | Description |
+|---|---|
+| Notes | Complete course notes |
+| PYQ | Previous Year Questions with solutions |
+| Assignments | Course assignments |
+| Reference Books | Additional reading materials |
+| Lab Manuals | Lab experiment guides |
 
+**Browse & Search**
+- Search by title, subject, or keyword
+- Filter by subject (CSE, Data Structures, OS, and more) or material type
+- Star ratings (1–5) and download counts help you find the most useful resources
 
-Real-time validation
-Instant display after upload
+**Upload**
+- Add a title, description, subject, and type
+- Attach PDF/DOC/DOCX files up to 10 MB
+- Optional tags for better discoverability
+- Real-time form validation; your upload appears instantly
 
-Delete Functionality:
+**Delete**
+- Trash icon on every card
+- Confirmation dialog before anything is removed
 
-Trash icon on each material card
-Confirmation dialog before deletion
-Instant removal from list
+### Timetable
+Your weekly schedule at a glance, updated to reflect the current semester.
 
-Material Types:
+### Announcements
+A live feed of important notices with a full history view.
 
-Notes - Complete course notes
-PYQ - Previous Year Questions with solutions
-Assignments - Course assignments
-Reference Books - Additional reading materials
-Lab Manuals - Laboratory experiment guides
+---
 
-Additional Features
+## Additional Modules
 
-Lost & Found - Report and find lost items
-Clubs & Societies - Manage club memberships
-Transport Info - Bus routes and schedules
-Marketplace - Buy/sell items with peers
-Placements - Job opportunities and career resources
-Important Links - Quick access to university resources
-Feedback - Submit suggestions and complaints
-Peer Help Forum - Collaborative learning platform
-Profile - Manage personal information
+| Module | Purpose |
+|---|---|
+| Lost & Found | Report or find items misplaced on campus |
+| Clubs & Societies | Browse and manage your club memberships |
+| Transport Info | Bus routes and schedules |
+| Marketplace | Buy and sell items with fellow students |
+| Placements | Job listings, drives, and career resources |
+| Important Links | Quick access to university portals and tools |
+| Peer Help Forum | Ask questions, share knowledge, learn together |
+| Feedback | Submit suggestions or complaints |
+| Profile | Manage your personal information |
 
-Tech Stack
-Frontend
+---
 
-React.js (v18.x) - Component-based UI framework
-React Router (v6.x) - Client-side routing
-Tailwind CSS (v3.x) - Utility-first CSS framework
-Lucide React - Icon library
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| UI Framework | React 18 |
+| Routing | React Router v6 |
+| Styling | Tailwind CSS v3 |
+| Icons | Lucide React |
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/srm-companion.git
+cd srm-companion
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+---
+
+## Project Structure
+
+```
+srm-companion/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Route-level page components
+│   ├── assets/          # Static files
+│   └── main.jsx         # App entry point
+├── public/
+└── package.json
+```
+
+---
+
+## Contributing
+
+Pull requests are welcome. For significant changes, open an issue first to discuss what you'd like to change.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+---
+
+## License
+
+MIT
