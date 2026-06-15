@@ -1,18 +1,18 @@
-# SRM Companion
+ SRM Companion
 
-> Your academic life, organized — attendance tracking, study materials, timetables, and more in one place.
-
----
-
-## What It Does
-
-SRM Companion is a student portal built for SRM University students who want to spend less time hunting for information and more time studying. It pulls together the things you check daily — attendance, materials, announcements, timetables — into a single, fast interface.
+> Your academic life, organized — attendance tracking, study materials, timetables, and more in one place
 
 ---
 
-## Core Features
+ What It Does
 
-### Attendance Tracking
+SRM Companion is a student portal built for SRM University students who want to spend less time hunting for information and more time studying. It pulls together the things you check daily — attendance, materials, announcements, timetables — into a single, fast interface
+
+---
+
+ Core Features
+
+ Attendance Tracking
 Never get caught off-guard by low attendance again.
 
 - Live percentage display per course
@@ -20,7 +20,7 @@ Never get caught off-guard by low attendance again.
 - Calculates exactly how many classes you need to attend to recover
 - Visual progress bars for a quick read at a glance
 
-### Study Materials
+Study Materials
 A shared repository for everything your batch needs.
 
 | Type | Description |
@@ -31,18 +31,18 @@ A shared repository for everything your batch needs.
 | Reference Books | Additional reading materials |
 | Lab Manuals | Lab experiment guides |
 
-**Browse & Search**
+Browse & Search**
 - Search by title, subject, or keyword
 - Filter by subject (CSE, Data Structures, OS, and more) or material type
 - Star ratings (1–5) and download counts help you find the most useful resources
 
-**Upload**
+Upload
 - Add a title, description, subject, and type
 - Attach PDF/DOC/DOCX files up to 10 MB
 - Optional tags for better discoverability
 - Real-time form validation; your upload appears instantly
 
-**Delete**
+Delete
 - Trash icon on every card
 - Confirmation dialog before anything is removed
 
@@ -54,7 +54,7 @@ A live feed of important notices with a full history view.
 
 ---
 
-## Additional Modules
+ Additional Modules
 
 | Module | Purpose |
 |---|---|
