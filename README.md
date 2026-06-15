@@ -1,8 +1,5 @@
 SRM Companion 
-A comprehensive web-based student management system for SRM University students to track attendance, manage study materials, view timetables, and stay organized throughout the semester.
-
-Overview
-SRM Companion is a student portal web application designed to help students manage their academic life efficiently. The application provides a centralized dashboard for tracking attendance, accessing study materials, viewing weekly timetables, and monitoring academic performance.
+A comprehensive web-based student management system for SRM University students to track attendance, manage study materials, view timetables, and stay organized throughout the semester
 
 Overview
 SRM Companion is a student portal web application designed to help students manage their academic life efficiently. The application provides a centralized dashboard for tracking attendance, accessing study materials, viewing weekly timetables, and monitoring academic performance.
